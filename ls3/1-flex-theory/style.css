@@ -1,0 +1,19 @@
+.cnt{
+display: flex;
+height: 300px;
+}
+
+.blue{
+    background-color: blue;
+    flex: 1;
+}
+
+.green{
+    background-color: green;
+    flex: 1;
+}
+
+.red{
+    background: red;
+    flex: 1;
+}

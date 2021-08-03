@@ -1,0 +1,20 @@
+.flex-cnt{
+    display: flex;
+    height: 100vh;
+}
+.flex-cnt__item{
+    flex: 1;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+}
+
+.video{
+    height: 80%;
+}
+.flex-cnt__center{
+    display: flex;
+    height: 100%;
+}

@@ -1,0 +1,23 @@
+button {
+    background-color: #FF9900;
+}
+
+h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 121px;
+    text-align: center;
+    color: #000000;
+}
+
+p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;   
+    align-items: center;
+    color: #000000;
+}

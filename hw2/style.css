@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.flex-cnt {
+    display: flex;
+    height: 100vh;
+}
+
+.flex-cnt__center {
+    flex: 1;
+    display: flex;
+
+    /* center */
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+.black {
+    flex: 1;
+    background-color: black;
+}

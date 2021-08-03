@@ -1,0 +1,36 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.h3 {
+    margin-bottom: 5px;
+    font-size: 15px;
+    color:black
+    
+}
+
+.description {
+    font-size: 10px;
+    color: grey;
+}
+
+.page-section-cnt {
+    width: 1000px;
+    
+    margin: 0 auto;
+}
+
+.flex-center-cnt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.img {
+    width: 100%;
+    height: 600px;
+    object-fit: contain;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
