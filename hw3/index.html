@@ -1,33 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="list__switch">
-        
-        <input type="text">
-        <input type="text">
-        <input type="text">
 
-       <div id="roztasyvanya-course-item" class="input-fill">
-           <label for="">
-               <div>Прибуття</div>
-                <input type="text" placeholder="some text">
-           </label>
-           
-       </div>  
-       <div id="pribyt-course-item">Прибуття</div>  
-       <div id="viezd-course-item">Виїзд</div>  
-       <div id="gosti-course-item">Гості</div>
-       <button class="card__item--button"></button>
+<body>
+    <div class="div_a">
+        <form action="./product.html" class="form_d">
+            <div id="roztasyvanya-course-item" class="list__switch">
+                <label for="">
+                    <div>Розташування</div>
+                    <input type="text" placeholder="Куди Ви їдете" class="input-f">
+                </label>
+            </div>
+
+            <div id="pribyt-course-item" class="list__switch">
+                <label for="">
+                    <div>Прибуття</div>
+                    <input type="text" placeholder="Додайте дати" class="input-f">
+                </label>
+            </div>
+
+            <div id="viezd-course-item" class="list__switch">
+                <label for="">
+                    <div>Виїзд</div>
+                    <input type="text" placeholder="Додайте дати" class="input-f">
+                </label>
+            </div>
+
+            <div id="gosti-course-item" class="list__switch">
+                <label for="">
+                    <div>Гості</div>
+                    <input type="text" placeholder="Додайте гостей" class="input-f">
+                </label>
+            </div>
+
+            <button class="card__item--button"></button>
+        </form>
     </div>
-    
     <script src="./script.js"></script>
-    
 </body>
+
 </html>
