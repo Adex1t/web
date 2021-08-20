@@ -5,13 +5,14 @@ const playListCourseStateIndex = 0
 const descriptionStateIndex = 1
 
 playListCourseItemHTML.addEventListener('click', () =>  {
-    let currentStateIndex = playListCourseStateIndex
-
+     currentStateIndex = playListCourseStateIndex
     playListCourseItemHTML.classList.add('list__switch--active-item')
-    console.log(currentStateIndex)
+    descriptionItemHTML.classList.remove('list__switch--active-item')
 })
 
 descriptionItemHTML.addEventListener('click', () =>  {
     currentStateIndex = descriptionStateIndex
-    console.log(currentStateIndex)
+    descriptionItemHTML.classList.add('list__switch--active-item')
+    playListCourseItemHTML.classList.remove('list__switch--active-item')
 })
+
