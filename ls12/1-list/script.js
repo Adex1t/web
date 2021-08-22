@@ -44,3 +44,5 @@ let temp = [10, 15, 20, 15, 18, 18, 20, 10, 15, 20, 15, 18, 18, 20, 10, 15, 20, 
 // on button click log all `temp` elements in range `from`, `to`
 
 // [from, to] = [5, 12] - все числа между 5, 12
+
+
