@@ -1,0 +1,21 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+
+.menu {
+
+}
+
+.menu__list {
+
+}
+
+.menu__item {
+    list-style: none;
+}
+
+.tag {
+
+}
