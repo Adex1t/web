@@ -1,0 +1,31 @@
+body, 
+ul, 
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+/* left part */
+.products{
+    flex: 1;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-card__title {
+    width: 150px;
+}
+
+/*  */
+.cart {
+    flex: 1;
+}
